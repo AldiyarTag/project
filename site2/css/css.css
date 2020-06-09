@@ -1,0 +1,89 @@
+body {
+    font-size: 20px;
+    color: black;
+    font-family: serif;
+    box-sizing: border-box;
+}
+#header-nav {
+    border-radius: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 {
+    font-family: serif;
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list {
+    margin-top: 5px;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+    border-bottom: black 1px solid;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #2d3b35;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+li{
+    color: #2d3b35;
+    text-align: center;
+}
+.menu-item{
+    margin-top: 20px;
+}
+section{
+    border: 2px;
+    border: solid;
+    border-radius: 8px;
+}
+p{
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#text{
+    text-align: center;
+}
+@media (max-width: 768px){
+    .col-sm-12{
+        width: 100%;
+    }
+}
+@media (min-width: 769px) and (max-width: 992px){
+    .col-md-6{
+        width: 50%;
+        padding: 1%;
+        float: left;
+    }
+    .third{
+        width: 100%;
+        padding: 1%;
+        float: left;
+    }
+}
+@media (min-width: 993px){
+    .col-lg-4{
+        width: 33%;
+        padding: 1%;
+        float: left;
+    }
+}
